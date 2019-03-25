@@ -28,7 +28,7 @@ export class SuperPerson extends Person {
 
     speak(message){
         super.speak(`${message} and I can ${this.superpower}`); 
-        //this is accessing the parent class' methods and overriding them in SuperPerson specifically
+        //this is accessing the parent class' methods and overriding them in SuperPerson specificallycd.
     }
 }
 
